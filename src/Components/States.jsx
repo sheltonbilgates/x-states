@@ -103,7 +103,7 @@ export default function App() {
       </div>
       {selectedCity && (
         <h2 className="mt-10 text-2xl text-black font-bold">
-          You selected <span className="">{selectedCity}</span>
+          You selected <span className="">{selectedCity},</span>
           <span className="text-gray-400">
             {" "}
             {selectedState}, {selectedCountry}
